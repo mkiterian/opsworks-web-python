@@ -10,7 +10,7 @@ default["deploy_buildout"]["symlink_before_migrate"] = {
 # src should only be moved to shared for buildouts that use mr.developer exclusively
 #  'src' => 'src',
 }
-default["deploy_buildout"]["purge_before_symlink"] = ['var', 'eggs', 'downloads', 'extends', 'parts']
+default["deploy_buildout"]["purge_before_symlink"] = ['var', 'eggs', 'downloads', 'extends', 'parts', '.git']
 default["deploy_buildout"]["create_dirs_before_symlink"] = ['var', 'eggs', 'downloads', 'extends', 'parts']
 default["deploy_buildout"]["buildout_version"] = ""
 default["deploy_buildout"]["bootstrap_params"] = ""
