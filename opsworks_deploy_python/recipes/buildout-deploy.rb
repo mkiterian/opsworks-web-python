@@ -18,4 +18,8 @@ node[:deploy].each do |application, deploy|
     force_build deploy["always_build_on_deploy"]
   end
 
+  file "/srv/www/mc/current/.git" do
+    action :delete
+  end
+
 end
