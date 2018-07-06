@@ -13,7 +13,7 @@ script "set_release" do
   environment node['deploy']['mc']['environment']
   code <<-EOH
     # trigger a deploy of impact-api
-    export DEPLOY_TARGET=#{revision}
+    export DEPLOY_TARGET=AC-4121
     export IMPACT_ENVIRONMENT=#{impact_environment}
     export DOCKER_REGISTRY=#{docker_registry}
     export AWS_DEFAULT_REGION=#{ecs_default_region}
