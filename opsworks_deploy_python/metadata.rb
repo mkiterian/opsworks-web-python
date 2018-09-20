@@ -22,3 +22,4 @@ recipe "opsworks_deploy_python::django", "Install and setup a django based pytho
 recipe "opsworks_deploy_python::r3-mount-patch", "Patch to mount /mnt filesystems for r3 instances"
 recipe "opsworks_deploy_python::symlink-volume", "create a symlink from our deploy dir to a large volume"
 recipe "opsworks_deploy_python::reindex-algolia", "reindex algolia when accelerate is deployed"
+recipe "opsworks_deploy_python::new_recipe", "reindex algolia when accelerate is deployed"
